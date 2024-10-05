@@ -1,5 +1,3 @@
-This is a collection of my Mobile Software Development labs completed in the third year of TU856.
-
 This is a collection of my Mobile Software Development labs completed in the third year of TU856.  
 
 The repository includes the following projects:  
