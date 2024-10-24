@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab5A</string>
+
+    <string-array name="list_items">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+</resources>
