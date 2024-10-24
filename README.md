@@ -23,7 +23,7 @@ In this lab, I focused on enhancing the user interface and experience in an Andr
 - **Calendar Feature**: Added functionality for users to select a date via a calendar interface. Upon selection, a message is displayed showing the chosen date, enhancing user interactivity with a visual confirmation of their selection.  
 - **Demonstration**: Successfully executed the app to showcase the functionality of the ActionBar, SnackBar, and calendar feature, emphasizing their roles in enhancing user engagement and providing meaningful feedback.
 
-**Lab 5: Dialogs and Orientation Handling**  
+### Lab 5: Dialogs and Orientation Handling 
 In this lab, I implemented various types of dialogs and event handling in an Android application:  
 - **Alert Dialogs:** Created dialogs to inform users and prompt simple choices.  
 - **List Dialogs:** Enabled users to select from a list of predefined options.  
