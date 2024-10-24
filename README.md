@@ -25,7 +25,12 @@ In this lab, I focused on enhancing the user interface and experience in an Andr
 
 ### Lab 5: Dialogs and Orientation Handling 
 In this lab, I implemented various types of dialogs and event handling in an Android application:  
-- **Alert Dialogs:** Created dialogs to inform users and prompt simple choices.  
-- **List Dialogs:** Enabled users to select from a list of predefined options.  
-- **Input Dialogs:** Designed custom input dialogs to gather user data.  
-Additionally, I handled screen orientation changes by creating separate layouts for portrait and landscape modes, ensuring a responsive user experience across different device orientations. This lab emphasizes practical usage of dialogs and adaptive design in mobile app development.
+- **Alert Dialogs:** Created dialogs to inform users and prompt simple choices, effectively managing user confirmations and notifications.  
+- **List Dialogs:** Developed a List Dialog that allows users to select from a predefined set of options, enhancing interaction through a clear selection interface.  
+- **Input Dialogs:** Designed custom input dialogs to gather user data, allowing for personalized input fields and layouts tailored to the app's needs.
+
+**Event Handling:** For each dialog type, I set up specific event listeners to handle user interactions seamlessly. The alert dialogs provide simple responses, while the list and input dialogs capture user selections and input effectively.
+
+**Screen Orientation Handling:** I also focused on managing orientation changes by creating separate layout files for both portrait and landscape modes. This involved:  
+- **Defining Alternate Layouts:** Created a new layout resource specifically for landscape mode to ensure that the UI remains user-friendly and visually appealing regardless of the device's orientation.  
+- **Layout Management:** Implemented the logic to switch between these layouts automatically when the device orientation changes, ensuring a smooth user experience.
