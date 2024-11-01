@@ -1,8 +1,8 @@
 This repository contains a collection of my Mobile Software Development labs completed during my third year of Computer Science at TU Dublin. 
 
-All applications are developed using **Kotlin** and **XML** in **Android Studio**, demonstrating various aspects of mobile app development.
+All applications are developed using Kotlin and XML in Android Studio, demonstrating various aspects of mobile app development.
 
-## Lab Summaries
+# Lab Summaries
 
 ### Lab 1: Hello World App
 In this lab, I developed a simple application that displays a personalized message. This project serves as an introduction to Android development, showcasing basic UI elements and text display.
