@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/header_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab 5 Dialog"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/message_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#808080" /> <!-- Gray text color -->
+
+    <Button
+        android:id="@+id/alert_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Alert" />
+
+    <Button
+        android:id="@+id/list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show List" />
+
+    <Button
+        android:id="@+id/input_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Input" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button
+id buttonClickCount
+id edittext
+id radioButton1
+id radioButton2
+id radioButton3
+id radioButtonLabel
+id radioGroup
+id selectedFruitTextView
+id spinner
+id spinnerLabel
+id textviewEditText
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Lab3D
+style Theme.Lab3D
+xml backup_rules
+xml data_extraction_rules
