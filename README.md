@@ -45,7 +45,7 @@ In this lab, I built an app using Android’s Architecture Components: Room, Vie
 
 - **Room Database**: I integrated Room to save and retrieve words, and pre-populated the database with sample data.
 - **RecyclerView**: The app displayed words in a RecyclerView, automatically updating the list when the database changed.
-- **Adding Data**: I implemented a **FloatingActionButton** that opened a second activity, allowing users to enter and add new words to the database.
+- **Adding Data**: I implemented a FloatingActionButton that opened a second activity, allowing users to enter and add new words to the database.
 - **ViewModel & LiveData**: The ViewModel exposed data through LiveData, ensuring the UI updated automatically when the data in the database changed.
 - **Repository & DAO**: I used the Repository to manage data operations, while the DAO provided methods for querying the database.
 
