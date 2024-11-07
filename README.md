@@ -49,4 +49,4 @@ In this lab, I built an app using Android’s Architecture Components: Room, Vie
 - **ViewModel & LiveData**: The ViewModel exposed data through LiveData, ensuring the UI updated automatically when the data in the database changed.
 - **Repository & DAO**: I used the Repository to manage data operations, while the DAO provided methods for querying the database.
 
-By the end of this lab, I built an app with a clean architecture, utilizing **LiveData** to create a reactive UI that updates seamlessly in response to changes in the Room database. This lab helped me understand how to structure apps using architecture components for better scalability and maintainability.
+By the end of this lab, I built an app with a clean architecture, utilizing LiveData to create a reactive UI that updates seamlessly in response to changes in the Room database. This lab helped me understand how to structure apps using architecture components for better scalability and maintainability.
