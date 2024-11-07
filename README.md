@@ -39,3 +39,14 @@ In this lab, I implemented various types of dialogs and event handling in an And
 
 - **Defining Alternate Layouts**: Created a new layout resource specifically for landscape mode to ensure that the UI remains user-friendly and visually appealing regardless of the device's orientation.
 - **Layout Management**: Implemented the logic to switch between these layouts automatically when the device orientation changes, ensuring a smooth user experience.
+
+### Lab 6: Building a Reactive App with Architecture Components
+In this lab, I built an app using Android’s Architecture Components: **Room**, **ViewModel**, and **LiveData**. The app focused on managing a list of words with a local database and updating the UI reactively when data changes.
+
+- **Room Database**: I integrated Room to save and retrieve words, and pre-populated the database with sample data.
+- **RecyclerView**: The app displayed words in a **RecyclerView**, automatically updating the list when the database changed.
+- **Adding Data**: I implemented a **FloatingActionButton** that opened a second activity, allowing users to enter and add new words to the database.
+- **ViewModel & LiveData**: The **ViewModel** exposed data through **LiveData**, ensuring the UI updated automatically when the data in the database changed.
+- **Repository & DAO**: I used the **Repository** to manage data operations, while the **DAO** provided methods for querying the database.
+
+By the end of this lab, I built an app with a clean architecture, utilizing **LiveData** to create a reactive UI that updates seamlessly in response to changes in the Room database. This lab helped me understand how to structure apps using architecture components for better scalability and maintainability.
