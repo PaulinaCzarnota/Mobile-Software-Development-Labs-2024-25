@@ -1,4 +1,0 @@
-#Thu Nov 07 12:07:03 GMT 2024
-base.0=C\:\\Software\\AndroidStudio\\Week 8\\codelab-android-room-with-a-view-kotlin\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
