@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/displayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/counterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Counter: 0"
+        android:textSize="18sp"
+        android:layout_below="@id/displayTextView"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/changeContentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change content"
+            android:onClick="genContent"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/runBackgroundTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Run background task"
+            android:onClick="runDelay"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</RelativeLayout>
