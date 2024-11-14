@@ -50,3 +50,26 @@ In this lab, I built an app using Android’s Architecture Components: Room, Vie
 - **Repository & DAO**: I used the Repository to manage data operations, while the DAO provided methods for querying the database.
 
 By the end of this lab, I built an app with a clean architecture, utilizing LiveData to create a reactive UI that updates seamlessly in response to changes in the Room database. This lab helped me understand how to structure apps using architecture components for better scalability and maintainability.
+
+### Lab 7: Threads and ExecutorService
+
+In this lab, I explored the use of threads in Android development to handle time-consuming tasks without blocking the main UI thread. The main focus was on how threads can improve the responsiveness of applications by allowing time-consuming operations to run concurrently with the main thread, ensuring smooth user interactions.
+
+#### Part 1: Using Threads to Start New Tasks
+The lab began by creating a basic Android application where two buttons were added to the UI: "Change Content" and "Run Background Task". The purpose was to simulate a scenario where a long-running operation could block the UI thread, causing the app to freeze.
+
+- **Problem**: When "Run Background Task" was clicked, the application became unresponsive when trying to click "Change Content" afterward.
+- **Solution**: To resolve this, I created a new thread using the `Thread` class in Kotlin, which allowed the background task to run concurrently without blocking the main thread. This made the application more responsive and prevented freezing.
+
+#### Part 2: Threads and Handler Object
+In the second part of the lab, I learned how to use a `Handler` object to allow background threads to communicate with the main UI thread. Since Android doesn't allow background threads to update the UI directly, a handler is used to send messages from the background thread to the UI thread.
+
+- **Objective**: The goal was to count for 20 seconds in a background thread and update the UI every second.
+- **Implementation**:
+  - A new `TextView` was added to the layout to display the countdown.
+  - A custom `ThreadHandler` class was created, which extended `Handler` and communicated with the UI thread to update the `TextView` every second.
+  - A background thread was implemented using `Thread` that sent messages to the handler, which in turn updated the UI by calling the `updateUI()` function in `MainActivity`.
+
+This approach demonstrated how to effectively use handlers and threads to perform background tasks without blocking the main thread or crashing the app due to UI updates from background threads.
+
+By the end of this lab, I gained a solid understanding of how to implement multithreading in Android applications using the `Thread` class and `Handler` objects. This is crucial for maintaining responsiveness in mobile apps, especially when dealing with time-consuming operations like network requests or data processing.
