@@ -73,3 +73,16 @@ In the second part of the lab, I learned how to use a `Handler` object to allow 
 This approach demonstrated how to effectively use handlers and threads to perform background tasks without blocking the main thread or crashing the app due to UI updates from background threads.
 
 By the end of this lab, I gained a solid understanding of how to implement multithreading in Android applications using the `Thread` class and `Handler` objects. This is crucial for maintaining responsiveness in mobile apps, especially when dealing with time-consuming operations like network requests or data processing.
+
+### Lab 8: Location Tracking and Geolocation
+
+In this lab, I developed a location-aware app using Android's location services and geocoding features.
+
+#### Key Features:
+1. **Location Detection**: Displayed real-time GPS coordinates (latitude and longitude) and ensured proper runtime permissions and GPS signal handling.
+2. **Custom Location Updates**: Added user inputs (`minTime`, `minDistance`) to adjust update frequency, with `Toast` notifications for changes.
+3. **Geocoding**: Translated GPS coordinates into readable addresses and displayed them on the screen.
+4. **Address History**: Implemented a list to show previously visited locations using arrays and adapters.
+5. **Battery Optimization**: Used lifecycle methods (`onPause()`, `onResume()`) to toggle location tracking, conserving battery when the app is in the background.
+
+This lab enhanced my skills in creating efficient, location-aware Android apps.
