@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab08</string>
+    <string name="set_button_text">Set Values</string>
+    <string name="location_update">Location Updated</string>
+</resources>
