@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar/Header -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Lab9C: Vector Sensors"
+        app:titleTextColor="@android:color/white" />
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- TextView for Accelerometer -->
+            <TextView
+                android:id="@+id/accelerometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accelerometer: Not available"
+                android:textSize="20sp" />
+
+            <!-- TextView for Gyroscope -->
+            <TextView
+                android:id="@+id/gyroscope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gyroscope: Not available"
+                android:textSize="20sp" />
+
+            <!-- TextView for Magnetic Field -->
+            <TextView
+                android:id="@+id/magnetic_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magnetic Field: Not available"
+                android:textSize="20sp" />
+
+            <!-- TextView for Gravity -->
+            <TextView
+                android:id="@+id/gravity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gravity: Not available"
+                android:textSize="20sp" />
+
+            <!-- TextView for Linear Acceleration -->
+            <TextView
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linear Acceleration: Not available"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
