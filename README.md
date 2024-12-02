@@ -86,3 +86,18 @@ In this lab, I developed a location-aware app using Android's location services 
 5. **Battery Optimization**: Used lifecycle methods (`onPause()`, `onResume()`) to toggle location tracking, conserving battery when the app is in the background.
 
 This lab enhanced my skills in creating efficient, location-aware Android apps.
+
+### Lab 9: Notifications and Sensors in Android
+
+This lab focuses on working with Android notifications and managing scalar and vector sensors to provide real-time updates to the user.
+
+- **Part 1: Notifications**  
+  Developed an app to display a notification using the `NotificationManager`. The app supports both pre-Oreo and post-Oreo devices by creating a notification channel for API 26 and higher.
+
+- **Part 2: Scalar Sensors**  
+  Implemented an app to display real-time data from scalar sensors (e.g., temperature, light, proximity, and pressure). The app dynamically checks sensor availability and updates the UI with sensor values.
+
+- **Part 3: Vector Sensors**  
+  Created an app to display X, Y, Z values from vector sensors such as Accelerometer, Gyroscope, Magnetic Field, Gravity, and Linear Acceleration. Used a `Toolbar` for a professional UI header and managed lifecycle methods for efficient resource usage.  
+
+This lab improved my understanding of handling real-time data updates and leveraging Android's sensor framework effectively.
